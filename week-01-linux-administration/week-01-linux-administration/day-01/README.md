@@ -6,12 +6,12 @@
 
 ---
 
-## 🎯 Aaj Ka Goal
+## 🎯 Today's Goal
 
-- Linux file system structure samajhna
-- Basic commands (`pwd`, `ls`, `cd`, `cat`) seekhna
-- OverTheWire Bandit Level 0-2 solve karna
-- GitHub portfolio start karna
+- Understand Linux file system structure
+- Practice Basic commands (`pwd`, `ls`, `cd`, `cat`)
+- Solve OverTheWire Bandit Level 0-2
+- Start GitHub portfolio
 
 ---
 
@@ -38,18 +38,18 @@ See:
 
 ## 🧠 What I Learned
 
-1. Linux file system root `/` se start hota hai aur har directory ka apna specific purpose hai (`/etc` for config, `/bin` for binaries, etc.)
-2. Linux case-sensitive hai — `File.txt` aur `file.txt` alag hain.
-3. `ls -la` hidden files bhi dikhata hai (jo `.` se start hoti hain).
-4. Bandit Level 1 mein `-` (dash) filename ko `cat ./-` se padha jata hai kyunke `-` ko command flag samjha jata hai.
-5. Permissions numbers mein hoti hain: r=4, w=2, x=1. Isliye 755 = rwxr-xr-x.
+1. Linux file system start from root `/`  and each directory have its own specific purpose (`/etc` for config, `/bin` for binaries, etc.)
+2. Linux is case-sensitive — `File.txt` and `file.txt` are different.
+3. `ls -la` shows hidden files (which starts from `.`).
+4. In Bandit Level 1 `-` (dash) filename reads with the help of `cat ./-` because `-` treat as a command flag.
+5. Permissions set in the form of numbers: r=4, w=2, x=1. that's why 755 = rwxr-xr-x.
 
 ---
 
 ## ⚠️ Challenges Faced
 
-- Bandit Level 1 mein `-` filename se confuse hua. Solution: `cat ./-` use kiya.
-- `ls -la` ke columns samajhne mein thoda time laga (permissions, links, owner, group, size, date, name).
+-In Bandit Level 1 confused with `-` filename. Solution: Use `cat ./-`.
+-Understanding the columns of `ls -la` was time taking (permissions, links, owner, group, size, date, name).
 
 ---
 
