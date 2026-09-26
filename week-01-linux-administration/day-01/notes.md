@@ -1,6 +1,7 @@
 # Day 1 — Theory Notes
 
 ## Linux File System Structure
+
 / (root).
 ├── /root → Root user's home directory.
 
